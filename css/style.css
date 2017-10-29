@@ -55,3 +55,12 @@ body {
     font-size: 0.9em;
     ;
 }
+
+.homebutton {
+    padding-top: 20%;
+    padding-left: 6%;
+    color: #f34a28;
+    font-family: Glacial Indifference;
+    font-size: 1em;
+    font-weight: bold;
+}
