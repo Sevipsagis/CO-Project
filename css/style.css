@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Krugmann Brush";
+    src: url("../assets/fonts/KRUGMANNBRUSH.TTF");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.h_title {
+    position: relative;
+    font-family: Krugmann Brush;
+    font-size: 23rem;
+    color: #f34a28;
+    transform: rotate(-12deg);
+    text-align: center;
+    top: 18%;
+    left: 8%;
+}
+
+.h_bg {
+    background-image: url("../assets/pic/h_bg.jpg");
+    background-size: 115%;
+    background-position-x: -150px;
+    background-repeat: no-repeat;
+}
