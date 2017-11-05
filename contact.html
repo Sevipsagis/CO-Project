@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="name" content="Kornasak Wongjinda">
+    <meta name="name" content="Nuttapol Phomthon">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navbar-item:hover {
+            background: inherit !important;
+            color: #f34a28 !important;
+        }
+        
+        body {
+            background: #363636 !important;
+        }
+        
+        .footer {
+            background: #ffffff;
+            width: 100vw !important;
+            height: 12% !important;
+            margin: 0 !important;
+        }
+        
+        a.footer-item {
+            margin: 1rem;
+        }
+        
+        .contact_box {
+            background: white;
+            position: absolute;
+            height: 47vh;
+            top: 32vh;
+            z-index: 1;
+        }
+        
+        div.column {
+            display: inline-flex !important;
+        }
+        
+        input {
+            height: 1.7rem;
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            background: #dfe6e6;
+        }
+        
+        .main-color {
+            color: #f34a28 !important;
+        }
+        
+        textarea {
+            resize: none;
+            margin-top: 0.5rem;
+            height: 10rem;
+            font-size: 1rem;
+            background: #dfe6e6;
+        }
+        
+        button.button {
+            background: #f34a28;
+            color: white;
+            width: 6vw;
+            margin-top: 0.5rem;
+        }
+        
+        .contact-desc {
+            background: #dfe6e6;
+            width: 25vw;
+            margin-left: 5vw;
+            padding-top: 5%;
+            padding-left: 3%;
+        }
+        
+        .title {
+            font-size: 1.2rem !important;
+            margin-bottom: 0 !important;
+            opacity: 1 !important;
+            font-weight: bold;
+        }
+        
+        .sub-title {
+            font-size: 0.95rem !important;
+        }
+        
+        .t1 {
+            top: 73%;
+            z-index: 2;
+        }
+        
+        .t2 {
+            top: 15%;
+            z-index: 1;
+        }
+        
+        .headbar {
+            height: 8%;
+            position: absolute;
+            top: 16%;
+            width: 58.33333333%;
+            background: white;
+            z-index: 0;
+            text-align: center;
+            padding-top: 1.5%;
+        }
+    </style>
+</head>
+
+<body style="background-color: whitesmoke">
+    <nav class="navbar is-white" role="navigation" aria-label="main navigation">
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <p class="navbar-item" style="left: 100%; font-family: Krugmann Brush; font-size: 4rem; color: #f34a28; transform: rotate(-12deg); font-weight: bolder; letter-spacing: 3px;">hua kong</p>
+            </div>
+            <div class="navbar-end" style="background-color: #222222; height: 50px; width: 50vw; margin-top: 2.5%;">
+                <a class="navbar-item" href="" style="font-family: Glacial Indifference; color:#fff">ABOUT</a>
+                <a class="navbar-item" href="" style="font-family: Glacial Indifference; color:#fff">PROFILE</a>
+                <a class="navbar-item" href="" style="font-family: Glacial Indifference; color:#fff">SERVICE</a>
+                <a class="navbar-item" href="" style="font-family: Glacial Indifference; color:#fff; margin-right: 45%">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    <img src="assets/pic/bg.png" alt="">
+    <div class="tile is-5 t1"></div>
+    <div class="tile is-6 t2 is-pulled-right"></div>
+    <div class="is-7 headbar"><span class="main-color title">CONTACT </span> Contact us here.</div>
+    <div class="contact_box colums column is-8 is-offset-2">
+        <form action="mailto:bazchayapon@gmail.com" method="post" enctype="text/plain">
+            <div class="column">
+                <div>
+                    <p class="form-label">name<span class="main-color">*</span></p>
+                    <input name="name" type="text" style="width: 12.5vw;">
+                </div>
+                <div style="margin-left: 3.5vw">
+                    <p class="form-label">email<span class="main-color">*</span></p>
+                    <input name="email" type="email" style="width: 20.8333333vw;">
+                </div>
+            </div>
+            <div class="column" style="display:block !important;">
+                <p>message<span class="main-color">*</span></p>
+                <textarea name="detail" style="width: 36.8333333vw;" cols="100" rows="10"></textarea><br>
+                <button type="submit" class="button is-pulled-right">SEND</button>
+            </div>
+        </form>
+        <div class="contact-desc">
+            <div class="desc">
+                <h2 class="title main-color">EMAIL</h2>
+                <p class="sub-title">bazchayapon@gmail.com</p><br>
+                <h2 class="title main-color">TELEPHONE</h2>
+                <p class="sub-title">(+66)806081150</p><br>
+                <h2 class="title main-color">ADDRESS</h2>
+                <p class="sub-title">Hua Kong Studio</p>
+                <p class="sub-title">Nantawan Village 233/147</p>
+                <p class="sub-title">Nantawaree3 Srinakarin Road</p>
+                <p class="sub-title">Samutprakarn 10270</p>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer" style="text-align: center;">
+            <a href="" class="footer-item">aaaaa</a>
+            <a href="" class="footer-item">bbbbb</a>
+            <a href="" class="footer-item">ccccc</a>
+        </div>
+    </footer>
+</body>
+
+</html>
